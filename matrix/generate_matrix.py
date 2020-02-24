@@ -2,8 +2,7 @@ from random import randrange
 import time
 import os
 
-# Алгоритм: генерируем блоки по 5 млн чисел, каждый из которых занимает
-# 38.35 Мб оперативной памяти, и записываем блоки в файл
+# Алгоритм: генерируем блоки по 5 млн чисел
 
 # import sys
 # print(sys.getsizeof([randrange(10) for number in range(5000000)])/1024/1024, 'Mb')
